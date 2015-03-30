@@ -11,17 +11,17 @@ public class Matrix
 	
 	public Matrix add(int i)
 	{
-		return new Matrix( val + String.valueOf(i) );
+		return new Matrix( val + "+" + String.valueOf(i) );
 	}
 
 	public Matrix decrease(int i) 
 	{
-		return add( -i );
+		return new Matrix( val + "-" + String.valueOf(i) );
 	}
 
 	public Matrix multiply(int i) 
 	{
-		return this;
+		return new Matrix( val + "x" + String.valueOf(i) );
 	}
 	
 	public String toString()

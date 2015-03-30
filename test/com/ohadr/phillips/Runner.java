@@ -8,10 +8,9 @@ public class Runner {
 		pipe.init();
 		
 		pipe.process( new Matrix( "phillips" ) );
-        Thread.sleep(1000);
+//        Thread.sleep(1000);
 
 		pipe.process( new Matrix( "ohadr" ) );
-        Thread.sleep(1000);
 	}
 
 }
